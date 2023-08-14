@@ -1,0 +1,42 @@
+.btn {
+  border: 1px solid #243746;
+  border-radius: 4px;
+  background-color: #243746;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+  padding: 6px 12px;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #243746;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageDiv {
+  height: fit-content;
+  width: fit-content;
+  align-items: center;
+}
+
+.img {
+  content: "";
+  display: inline-block;
+  pointer-events: fill;
+  filter: brightness(0) invert(1);
+  fill: #fff;
+}
+
+.btn:hover img {
+  filter: brightness(0) invert(0);
+}
